@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.property.animation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name="com.property.animation.AnimatorSet.MyActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.playSequentiallyActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.AnimatorListenerActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.setDurationInterpolatorActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.setTargetActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.setStartDelayActivity"/>
+        <activity android:name="com.property.animation.AnimatorSet.PathMenuActivity"/>
+
+        <activity android:name="com.property.animation.InterploatorEvaluator.MyActivity" />
+        <activity android:name="com.property.animation.InterploatorEvaluator.InterploatorActivity"/>
+        <activity android:name="com.property.animation.InterploatorEvaluator.EvaluatorActivity"/>
+        <activity android:name="com.property.animation.InterploatorEvaluator.ArgbEvaluatorActivity"/>
+        <activity android:name="com.property.animation.InterploatorEvaluator.CharacterEvaluatorActivity"/>
+        <activity android:name="com.property.animation.InterploatorEvaluator.FallingBallActivity"/>
+
+        <activity android:name="com.property.animation.ObjectAnimator.MyActivity"/>
+        <activity android:name="com.property.animation.ObjectAnimator.SetterAnimActivity"/>
+        <activity android:name="com.property.animation.ObjectAnimator.FallingBallActivity"/>
+
+        <activity android:name="com.property.animation.ValueAnimator.MyActivity"/>
+        <activity android:name="com.property.animation.ValueAnimator.TranslateAnimationActivity"/>
+        <activity android:name="com.property.animation.ValueAnimator.ValueAnimDemoActivity"/>
+        <activity android:name="com.property.animation.ValueAnimator.RepeatActivity"/>
+        <activity android:name="com.property.animation.ValueAnimator.LoadingDemoActivity"/>
+
+        <activity android:name="com.property.animation.xmlAnimator.MyActivity"/>
+        <activity android:name="com.property.animation.xmlAnimator.ValueAnimXMLActivity"/>
+        <activity android:name="com.property.animation.xmlAnimator.ObjectAnimXmlActivity"/>
+        <activity android:name="com.property.animation.xmlAnimator.SetAnimXMLActivity"/>
+
+        <activity android:name="com.property.animation.PropertyAnimAdvance.MyActivity"/>
+        <activity android:name="com.property.animation.PropertyAnimAdvance.ofIntFloatActivity"/>
+        <activity android:name="com.property.animation.PropertyAnimAdvance.ofObjectActivity"/>
+        <activity android:name="com.property.animation.PropertyAnimAdvance.RingBellActivity"/>
+        <activity android:name="com.property.animation.PropertyAnimAdvance.ViewPropertyAnimatorActivity"/>
+
+        <activity android:name="com.property.animation.nineOldAndroidsDemo.MyActivity"/>
+        <activity android:name="com.property.animation.nineOldAndroidsDemo.ViewHelperActivity"/>
+
+        <activity android:name="com.property.animation.ViewGroupAnim.MyActivity"/>
+        <activity android:name="com.property.animation.ViewGroupAnim.ListViewLayoutAnimation"/>
+        <activity android:name="com.property.animation.ViewGroupAnim.GridViewLayoutAnimation"/>
+        <activity android:name="com.property.animation.ViewGroupAnim.AnimateLayoutChangesActivity"/>
+        <activity android:name="com.property.animation.ViewGroupAnim.LayoutTransitionActivity"/>
+        <activity android:name="com.property.animation.ViewGroupAnim.LayoutTransitionKeyframeActivity"/>
+
+        <activity android:name="com.property.animation.PathMeasureDemo.MyActivity"/>
+        <activity android:name="com.property.animation.PathMeasureDemo.GetSegmentDEMOActivity"/>
+        <activity android:name="com.property.animation.PathMeasureDemo.GetPosTanActivity"/>
+        <activity android:name="com.property.animation.PathMeasureDemo.AlipayActivity"/>
+
+        <activity android:name="com.property.animation.svgdemo.MainActivity"/>
+        <activity android:name="com.property.animation.svgdemo.SVGAnimActivity"/>
+        <activity android:name="com.property.animation.svgdemo.SVGShowActivity"/>
+        <activity android:name="com.property.animation.svgdemo.SearchEditActivity"/>
+    </application>
+
+</manifest>

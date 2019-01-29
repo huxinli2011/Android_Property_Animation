@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <Button
+            android:id="@+id/animator_set_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:textAllCaps="false"
+            android:text="AnimatorSet DEMO"
+            />
+
+    <Button
+            android:id="@+id/animator_listener_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:textAllCaps="false"
+            android:text="AnimatorListenerActivity"
+            />
+    <Button
+        android:id="@+id/animator_duration_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="setDurationInterpolatorActivity"
+        />
+    <Button
+        android:id="@+id/animator_target_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="setTargetActivity"
+        />
+    <Button
+        android:id="@+id/animator_start_activity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="setStartDelayActivity"
+        />
+    <Button
+            android:id="@+id/path_menu_activity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:textAllCaps="false"
+            android:text="路径菜单"
+            />
+</LinearLayout>
+

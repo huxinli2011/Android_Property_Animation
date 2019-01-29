@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <Button
+            android:id="@+id/layoutAnimation"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:textAllCaps="false"
+            android:text="layoutAnimation 动画标签 为listview添加动画"
+            />
+    <Button
+        android:id="@+id/gridLayoutAnimation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="gridLayoutAnimation 动画标签 为gridview添加动画"
+        />
+    <Button
+            android:id="@+id/animateLayoutChangesActivity"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:textAllCaps="false"
+            android:text="animateLayoutChanges=true属性实现viewgroup默认动画"
+            />
+    <Button
+        android:id="@+id/LayoutActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="animateLayoutChanges=true属性实现viewgroup默认动画"
+        />
+    <Button
+        android:id="@+id/LayoutTransitionActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="LayoutTransition的用法"
+        />
+    <Button
+        android:id="@+id/LayoutTransitionKeyframeActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="LayoutTransition配合PropertyValuesHolder用法"
+        />
+</LinearLayout>
+

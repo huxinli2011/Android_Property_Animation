@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android"
+          android:valueFrom="0"
+          android:valueTo="300"
+          android:duration="1000"
+          android:valueType="intType"
+          android:interpolator="@android:anim/bounce_interpolator"/>
+
+<!--
+duration 时长
+valueFrom 初始动画值，取值范围为float,int,color这三种类型的值
+valueTo 动画结束值，取值和上面一样
+startOffset 延时，对应代码中的startDelay(long dd)
+repeatCount 重复次数
+repeatMode 动画重复模式 repeat正序重播 reverse倒序重播
+valueType 取值为"intType"和"floatType"这两值字符串值  必须与android:valueFrom和android:valueTo相对应
+interpolator 设置插值器
+
+-->
